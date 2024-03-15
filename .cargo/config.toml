@@ -1,0 +1,5 @@
+[target.armv4t-none-eabi]
+rustflags = ["-C", "target-feature=+thumb-mode"]
+
+[unstable]
+build-std = ["core"]
